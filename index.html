@@ -4,28 +4,145 @@
      <meta charset="UTF-8">
      <meta name="viewport" contect="width=device-width, intial-scale=1.0">
      <tittle>Rushi Portfolio</tittle>
-     <!--link to fortawesome for inserting social media icons -- >
+     <!--link to fortawesome for inserting social media icons -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
-     < !-- link to css file -- >
+     <!-- link to css file -->
      <link rel="stylesheet" href="styles.css">
 </head>
 <boby>
-    < !-- naigation -->
-    <nav class="navbar"> </nav> 
-     <a href="#home" class="logo">CyberDev</a>
+    <!-- Navigation --> 
+    <nav class="navbar"> 
+     <a href="#home" class="logo">CyberRushi</a>
         <ul class="nav-links">
            <li><a href="#home">Home</a></li>
            <li><a href="#skills">Skills</a></li>
            <li><a href="#project">Project</a></li>
            <li><a href="#contact">Contact</a></li>
         </ul>
-    </nav> 
+    </nav>
+
     <!-- Hero section -->
     <section id="home" class="hero">
-        <div class 
-    </section>  
-       
+        <div class="hero-content">
+            <h1>Full-Stack Development</h1>
+            <p>Building digital experiences that merge creativity with technology</p>
+            <p class="highlight">Specializing in modern web development and cyber system</p>
+            <a href="#contact" class="cta-button"> Let's Connect</a>
+        </div>
+        <div class="hero-image">
+            <img src="Rushi.jpg" class="profile-img">
+        </div>
+    </section>   
 
+    <!-- Skills section -->
+     <section id="skills" class="skills">
+        <h2>Technical Expertise</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fa-solid fa-code"></i>
+                <h3>Frontend Development</h3>
+                <p>React, Vue, HTML, CSS3, JavaScript</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-server"></i>
+                <h3>Backend Development</h3>
+                <p>Node.js, Python,SQL</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-paintbrush"></i>
+                <h3>UI/UX Design</h3>
+                <p>Figma, user Testing</p>
+            </div>
+        </div>
+     </section>
 
+     <!-- Project Section -->
+      <section id="project" class="projects"> <h2 class="section-title">Projects </span></h2>
+    <div class="projects-grid">
+     <div class="project-card">
+    <div class="project-image">
+        <img src="car.jpeg" alt="Car Price Prediction">
+        <div class="project-overlay">
+            <div class="project-links">
+                <a href="https://github.com/patel27rushi-hub/Car-Price-prediction-system" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="project-info">
+        <h3>Car Price Prediction</h3>
+        <p>A Machine Learning system designed to predict vehicle market value based on various parameters.</p>
+        <div class="project-tags">
+            <span>Python</span>
+            <span>ML</span>
+            <span>Pandas</span>
+        </div>
+    </div>
+</div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2>Let's <span>Connect</span></h2>
+            <p>I'm currently open to new opportunities and collaborations. Feel free to reach out!</p>
+            
+            <div class="contact-item">
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                    <h4>Email</h4>
+                    <p>patel27rushi@gmail.com</p>
+                </div>
+            </div>
+            
+            <div class="contact-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                    <h4>Ode</h4>
+                    <p>Gujarat, India</p>
+                </div>
+            </div>
+        </div>
+
+        <form action="https://formspree.io/f/mjknnypr" method="POST" class="contact-form">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 cyberRushi. All rights reserved.</p>
+    <div class="social-links">
+        <a href="https://github.com/patel27rushi-hub" target="blank" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+        </a>  
+        
+        <a href="https://www.linkedin.com/in/rushi-patel-171b9a387/" target="blank" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+        </a> 
+        
+        <a href="https://www.snapchat.com/@patelrushi2712" target="blank" aria-label="Snapchat">
+            <i class="fa-brands fa-snapchat"></i>
+        </a> 
+        
+        <a href="https://www.instagram.com/patel_rushi_2712" target="blank" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+        </a> 
+    </div>
+</footer>
+
+    <!-- link to javascript file -->
+     <script src="script.js"></script>
 </boby>
 </html>
